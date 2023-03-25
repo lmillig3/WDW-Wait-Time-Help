@@ -5,10 +5,6 @@ import streamlit as st
 
 st.header('Walt Disney World Wait Time Help')
 
-
-df = pd.read_csv('WDW_Data.csv')
-df = df.sample(frac = 0.3)
-
 import streamlit as st
 
 
